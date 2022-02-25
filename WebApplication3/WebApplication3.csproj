@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>75df4358-1bfe-42f0-a078-c453b5863c41</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LaunchDarkly.ServerSdk" Version="6.1.0" />
+    <PackageReference Include="Microsoft.FeatureManagement" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>
